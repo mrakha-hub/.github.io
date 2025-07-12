@@ -1450,3 +1450,48 @@ section,
   display: block;
   margin-bottom: 10px;
 }
+
+#skills {
+  text-align: center;
+}
+
+/* Center the skills grid and items */
+.skills-content {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  flex-wrap: wrap;
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the grid */
+}
+
+/* Style for each skill column */
+.skills-column {
+  flex: 1;
+  min-width: 250px; /* Prevent columns from getting too narrow */
+  padding: 0 20px; /* Add spacing between columns */
+  text-align: left; /* Left-align text within columns */
+}
+
+/* Skill item styling */
+.skill-item {
+  margin-bottom: 20px;
+}
+
+/* Skill name and value alignment */
+.skill-name {
+  font-weight: bold;
+  color: #333; /* Dark gray for better readability */
+}
+
+.skill-value {
+  color: #E31937; /* Saul's signature red */
+  float: right;
+}
+
+/* Static bar styling */
+.skill-bar-static {
+  height: 10px;
+  background: #E31937;
+  border-radius: 5px;
+  margin-top: 5px;
+}
