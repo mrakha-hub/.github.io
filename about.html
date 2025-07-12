@@ -400,7 +400,29 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+  // Initialize AOS
+  AOS.init({
+    duration: 800,
+    easing: 'ease-in-out'
+  });
 
+  // Initialize PureCounter
+  new PureCounter();
+
+  // Initialize Swiper (testimonials)
+  const swiper = new Swiper('.init-swiper', {
+    loop: true,
+    speed: 600,
+    autoplay: {
+      delay: 5000,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
 </body>
 
 </html>
