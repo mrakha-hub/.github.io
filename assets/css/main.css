@@ -1421,3 +1421,32 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.skill-name, .skill-value {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.skill-value {
+  float: right;
+  color: #E31937; /* Saul's red */
+}
+
+.skill-bar-static {
+  height: 10px;
+  background: #E31937; /* Saul's red */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.stats-item span {
+  font-size: 48px;
+  font-weight: 700;
+  color: #E31937; /* Saul's red */
+  display: block;
+  margin-bottom: 10px;
+}
